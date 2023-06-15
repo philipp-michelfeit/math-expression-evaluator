@@ -3,7 +3,7 @@ import { tokenTypes, Token, createTokens } from './token'
 import { toPostfix } from './postfix'
 import { postfixEval, Constants } from './postfix_evaluator'
 import { createMathFunctions } from './functions'
-;('use strict')
+'use strict'
 // var Mexp = function (parsed) {
 //   this.value = parsed
 // }
@@ -16,7 +16,7 @@ class Mexp {
 	addToken = addToken
 	lex = lex
 	postfixEval = postfixEval
-	eval(string: string, tokens: Token[], Constants: Constants) {
+	safeEval = Function(string: string, tokens: Token[], Constants: Constants) {
 		return this.postfixEval(this.toPostfix(this.lex(string, tokens)), Constants)
 	}
 	math!: ReturnType<typeof createMathFunctions>
