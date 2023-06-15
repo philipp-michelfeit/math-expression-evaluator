@@ -1,6 +1,6 @@
 {
 	"name": "math-expression-evaluator",
-	"version": "0.0.0-development",
+	"version": "2.0.4",
 	"description": "A flexible math expression evaluator",
 	"main": "dist/es/index.js",
 	"types": "dist/types/index.d.ts",
@@ -16,7 +16,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/redhivesoftware/math-expression-evaluator.git"
+		"url": "https://github.com/philipp-michelfeit/math-expression-evaluator.git"
 	},
 	"files": [
 		"src",
@@ -28,12 +28,12 @@
 		"evaluator",
 		"parser"
 	],
-	"author": "bugwheels94<bugwheels94@gmail.com>",
+	"author": "philipp.michelfeit@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/redhivesoftware/math-expression-evaluator/issues"
+		"url": "https://github.com/philipp-michelfeit/math-expression-evaluator/issues"
 	},
-	"homepage": "https://github.com/redhivesoftware/math-expression-evaluator#readme",
+	"homepage": "https://github.com/philipp-michelfeit/math-expression-evaluator#readme",
 	"devDependencies": {
 		"@babel/preset-env": "^7.20.2",
 		"@babel/preset-typescript": "^7.18.6",
